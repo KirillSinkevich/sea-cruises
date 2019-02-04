@@ -1,0 +1,566 @@
+/*Roboto Slab*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&subset=cyrillic');
+
+
+
+body {
+	background-image: url(img/bg.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	background-size: 100% auto;
+	margin: 0;
+	font-family: Roboto Slab;
+	background-color: #f3f3f3;
+	transition: 0.5s;
+}
+
+footer {
+	margin-top: 50px;
+	background-color: #ffffff;
+	font-family: Roboto Slab;
+	font-size: 12px;
+	color: #1f4e7e;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {max-width:100%;height:auto;}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.navbar {
+	padding: 34px 15px;
+}
+	.dropdown {
+		position: absolute;
+		top: 45px;
+		background-color: #0d3351;
+		padding: 50px 100px 50px 25px;
+		z-index: 10;
+		/*display: none;*/
+	}	
+
+	.dropdown > li {
+		color: #ffffff;
+		list-style: none;
+		line-height: 1.8;
+	}
+
+
+	#burger {
+		width: 22px;
+		height: 16px;
+		float: left;
+	}
+		
+
+	.menu {
+		display: inline-block;
+		vertical-align: middle;
+		float: right;
+		padding-left: 0;
+		margin: 0;
+	}
+
+	.menu-li {
+		list-style: none;
+		/*padding-left: 10px;*/
+		display: inline-block;
+		vertical-align: middle;
+		color: #0d3351;
+	}
+		
+		.menu-li-img {
+			padding-right: 8px;
+		}
+
+		.menu-li-img-down {
+			padding-left: 8px;
+			padding-right: 36px;
+		}
+
+
+
+#logo-img{
+	display: flex;
+	justify-content: center;
+	margin: 17px auto;
+}
+
+.centre-text {
+	text-align: center;
+	color: #003366;
+}
+	#centre-text-up{
+		font-size: 40px;
+		margin: 20px 0;
+	}
+
+	#centre-text-down {
+		font-size: 71px;
+		margin: 80px 0;
+		text-transform: uppercase;
+	}
+
+#cruise-selection {
+	display: flex;
+	justify-content: center;
+	width: 202px;
+	height: 47px;
+	background-color: #33c7fd;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+}
+
+	#cruise-selection:hover {
+		background-color: #13b0e9;
+	}
+	
+	#cruise-selection:active {
+		background-color: #64d6ff;
+		border: none;
+	}
+
+	#cruise-selection-link {
+		color: #ffffff;
+	}
+
+#dashed-line {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.central-container {
+	padding: 0 15px;
+}
+
+	#catalog {
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		padding-top: 20px;
+		font-size: 30px;
+		color: #0d3351;
+	}
+
+	#sorting-cruises {
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		/*display: inline-block;
+		vertical-align: middle;*/
+		padding-top: 10px;
+		font-size: 14px;
+		color: #0d3351;
+	}
+	
+	#sorting-cruises-element {
+		display: inline-block;
+		vertical-align: middle;
+		padding-right: 0px;
+	}
+		#sorting-cruises-element img {
+			padding-right: 0px;
+		}
+
+
+	.grid {
+		margin-top: 45px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+
+		.column-left {
+			margin-right: 30px;
+		}
+
+
+		.column-right{
+
+		}
+
+
+			.grid-item {
+				background-color: #ffffff;
+				margin-bottom: 20px;
+			}
+
+				.grid-item-block-img {
+					position: relative;
+				}
+
+					.blue-label {
+						position: absolute;
+						top: -2%;
+						left: 75%;
+					}
+
+					.blue-label-text {
+						position: absolute;
+						top: 2%;
+						left: 76%;
+						text-align: center;
+						color: #ffffff;
+						text-transform: uppercase;
+					}
+
+
+					.red-label {
+						position: absolute;
+						top: -8%;
+						left: 75%;
+					}
+
+					.red-label-text {
+						position: absolute;
+						top: 10%;
+						left: 77%;
+						text-align: center;
+						color: #ffffff;
+						text-transform: uppercase;
+					}
+
+			.grid-container {
+				max-width: 450px;
+				margin: 0;
+			}
+
+			.grid-item-title {
+				padding: 20px 0 20px 40px;
+				color: #0099cc;
+			}
+
+				.grid-item-title img {
+					padding-left: 15px;
+				}
+
+			.grid-item-description {
+				color: #1f4e7e;
+				padding: 0 0 10px 40px;
+				line-height: 1.8;
+			}
+
+			.grid-item-price {
+				color: #1f4e7e;
+				padding: 0 0 30px 40px;
+				font-size: 22px;
+				font-weight: bold;
+			}
+
+				.grid-item-price-crossedout {
+					text-decoration: line-through;
+					color: #7a8f9f;
+					padding-left: 5px;
+					font-size: 16px;
+				}
+
+			#anapa {
+				
+			}
+				
+				#anapa-tablet {
+					display: none;
+				}
+
+			#novorossiysk {
+
+			}
+
+				#novorossiysk-tablet {
+					display: none;
+				}
+
+			#sochi {
+
+			}
+
+				#sochi-tablet {
+					display: none;
+				}
+
+
+			#gelendzhik {
+
+			}
+
+				#gelendzhik-tablet {
+					display: none;
+				}
+
+	#more-cruises {
+		display: flex;
+		justify-content: center;
+		width: 202px;
+		height: 47px;
+		background-color: #33c7fd;
+		margin: 0 auto;
+		padding: 0;
+		border: 0;
+		color: #ffffff;
+	}
+
+		#more-cruises img {
+			padding-left: 8px;
+		}
+
+		#more-cruises-text {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+.footer-inside {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px 0 40px 20px;
+}
+
+	#about-company {
+		line-height: 1.8;
+	}
+
+
+	#contacts {
+		display: flex;
+		flex-direction: column;
+		line-height: 1.8;
+	}
+		
+		.icon {
+			display: flex;
+			flex-direction: row;
+		}
+			.icon-contacts {
+				position: relative;
+				padding: 10px 10px 0 0;
+				width: 30px;
+				height: 30px;
+			}
+
+				.icon-contacts img {
+					display: inline-block;
+					position: absolute;
+					left: 0;
+					right: 0;
+					top: 0;
+					bottom: 0;
+					margin: auto;
+				}
+
+
+	#support {
+		line-height: 1.8;
+	}
+
+
+
+@media screen and (max-width: 1440px) {
+	body {
+		background-size: 150% auto;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	body {
+		background-size: 200% auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		background-size: 250% auto;
+	}
+	
+	.blue-label {
+		top: -4%;
+		left: 60%;
+	}
+
+	.blue-label-text {
+		top: 5%;
+		left: 62%;
+		
+	}
+
+	.red-label {
+		top: -4%;
+		left: 60%;
+	}
+
+	.red-label-text {
+		top: 7%;
+		left: 63%;
+	}
+
+	.menu {
+		font-size: 14px;
+	}
+
+	#logo-img {
+		margin: 100px auto 10px;
+	}
+
+	#centre-text-down {
+		margin: 10px 0 50px;
+	}
+
+	.grid-container {
+		max-width: 345px;
+		margin: 0;
+	}
+
+	#anapa {
+		display: none;		
+	}
+				
+		#anapa-tablet {
+			display: block;
+		}
+
+	#novorossiysk {
+		display: none;
+	}
+
+		#novorossiysk-tablet {
+			display: block;
+		}
+
+	#sochi {
+		display: none;
+	}
+
+		#sochi-tablet {
+			display: block;
+		}
+
+
+	#gelendzhik {
+		display: none;
+	}
+
+		#gelendzhik-tablet {
+			display: block;
+		}
+
+
+	#abrau {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 425px) {
+	body {
+		background-size: 400% auto;
+	}
+	
+	#logo-img {
+		position: absolute;
+		top: -130px;
+		left: 168.5px;
+		right: 168.5px;
+		margin: 0;
+	}
+
+	#centre-text-up {
+		font-size: 25px;
+		margin: 100px 0 50px;
+
+	}
+
+	#centre-text-down {
+		font-size: 45px;
+		margin: 30px 0 50px;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.grid {
+		flex-wrap: wrap;
+	}
+
+	.column-left {
+		margin: auto;
+	}
+
+	.column-right{
+		margin: auto;
+	}
+
+	.footer-inside {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/*justify-content: space-between;
+		padding: 20px 0 40px 20px;*/
+	}
+
+	#about-company {
+		display: none;
+	}
+
+	#support {
+		text-align: center;
+	}
+
+	#contacts {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	body {
+		background-size: 450% auto;
+	}
+
+	#logo-img {
+		position: absolute;
+		top: -120px;
+		left: 143.5px;
+		right: 143.5px;
+		margin: 0;
+	}
+
+	#centre-text-up {
+		font-size: 25px;
+		margin: 80px 0 50px;
+
+	}
+
+	#centre-text-down {
+		font-size: 45px;
+		margin: 10px 0 50px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#logo-img {
+		position: absolute;
+		top: -120px;
+		left: 116px;
+		right: 116px;
+		margin: 0;
+	}
+
+	#centre-text-up {
+		font-size: 25px;
+		margin: 80px 0 50px;
+
+	}
+
+	#centre-text-down {
+		font-size: 55px;
+		margin: 10px 0 25px;
+	}
+}
